@@ -1,0 +1,5 @@
+The code model for generating paths works as follows:
+	The car stays on its lane untill another car is found ahead within gap = 30m
+    The car then checks if no other cars on the left lane is so it changes lanes
+    The same goes with the right lane
+    If the right & left lanes are occupied the car slows down a bit and stays on its lane
